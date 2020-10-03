@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: "VT323", monospace;
+  margin: 0;
+  background-color: rgb(68, 57, 47);
+  background-image: url("skog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidan {
+  min-height: 100%;
+}
+
+.part {
+  border-style: dotted;
+  border-color: rgb(255, 0, 221);
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.meny {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.meny nav {
+  background-color: black;
+  padding-top: 15px;
+}
+
+.meny a {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+
+.meny a.hem {
+  background-color: rgb(255, 0, 221);
+  font-family: "VT323", monospace;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.meny a:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+#valkommen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  color: black;
+}
+
+#valkommen h1 {
+  padding-bottom: 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#valkommen a {
+  color: black;
+  text-decoration: underline;
+}
+
+#framsida {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 800px;
+  padding: 20px;
+}
+#framsida .ruta1 {
+  width: 500px;
+}
+
+#framsida .ruta2 {
+  width: 250px;
+  height: 600px;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  padding: 0px;
+  padding-left: 30px;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#filmer {
+  margin-bottom: 20px;
+}
+
+#filmer h1 {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#filmer h2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  border-style: solid;
+  border-color: white;
+  background-color: rgb(255, 0, 221, 0.384);
+}
+
+#filmer .part {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image img {
+  border-style: solid;
+  border-color: rgb(255, 0, 221);
+  margin-left: 100px;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+  text-align: center;
+  float: center;
+  overflow: hidden;
+  padding: 30px 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+footer a {
+  color: rgb(255, 0, 221);
+}
+
+#footerhelp {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#footerlinks {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#footericons {
+  text-align: center;
+  width: 20%;
+}
